@@ -1,0 +1,18 @@
+body {
+    margin: 0px;
+    font-family: Arial;
+    line-height: 20px;
+}
+
+#content {
+    min-height: calc(100vh - 40px);
+}
+
+#footer {
+    height: 20px;
+    background: #222;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

@@ -45,7 +45,7 @@ function Main() {
                 <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src="https://picsum.photos/id/201/320/200" />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Order Repeat Prescription</Card.Title>
                     <Card.Text>
                     Some quick example text to build on the card title and make up the
                     bulk of the card's content.
@@ -57,7 +57,7 @@ function Main() {
                 <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src="https://picsum.photos/id/220/320/200" />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Suport</Card.Title>
                     <Card.Text>
                     Some quick example text to build on the card title and make up the
                     bulk of the card's content.

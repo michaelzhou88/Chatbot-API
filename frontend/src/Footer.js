@@ -6,8 +6,8 @@ function Footer() {
     <footer class="py-5 my-5 bg-dark">
         <Container className="px-4">
           <p class="text-center text-white">
-            Copyright &copy; Sleep Hygiene Bot 2022
-          </p>
+            Copyright &copy; Michael Zhou <div>{(new Date().getFullYear())}</div>
+            </p>
         </Container>
     </footer>
 )

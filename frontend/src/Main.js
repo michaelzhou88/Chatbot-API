@@ -11,67 +11,56 @@ function Main() {
     return (
         <Container>
             <Row className="px-4 my-5">
-                <Col sm={7}>
+                <Col sm={6}>
                     <Image 
-                        src="https://picsum.photos/900/400"
+                        src="https://thumbs.dreamstime.com/b/young-man-sleeping-wide-bed-european-under-white-blanket-morning-sunlight-93952216.jpg"
                         fluid
                         rounded
-                        width={300} 
+                        className='sleepbot'
+                        width={400}
                     />
                     </Col>
                     <Col sm={5}>
-                    <h1 className='font-weigh-light' style={{fontSize: "1.2rem"}}>SleepCare</h1>
-                    <p class='mt-4'> This is a chatbot built to answer your questions on sleep hygiene. You can ask me about my purpose, why adopting sleep hygiene is so important and even ask questions to get tailored and personalised answers to improve the quality of your sleep. </p>
-                  </Col>
+                    <h1 className='font-weigh-light' style={{fontSize: "1.2rem"}}>Dr Doze - SleepBot </h1>
+                    <p class='mt-2'> I'm a chatbot assistant that aims to provide you with personalised advice to improve the quality of your sleep. You can start talking to me by clicking on my pop-up icon located in the bottom right hand corner of the site.</p>
+                    
+                    </Col>
                 </Row>
             <Row>
                 <Card className="text-center bg-secondary text-white my-2 py-4">
-                    <Card.Body>Getting started with SleepCare Chatbot. This chat bot helps you fall asleep faster, sleep deeper and wake up refreshed and energised for the next day!</Card.Body>
+                    <Card.Body>Depending on your sleeping goals, Dr Doze will provide you tips and tricks to help you fall asleep faster, sleep deeper and wake up refreshed and energised for the next day!</Card.Body>
                 </Card>
                 </Row>
                 <Row>
                 <Col>
                 <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="https://picsum.photos/id/200/320/200" />
+                <Card.Img variant="top" src="https://img.freepik.com/premium-vector/doctor-online-concept-female-holding-her-hand-smartphone-talking-doctor-using-app-chat_262362-97.jpg" />
                 <Card.Body>
                     <Card.Title>Ask questions about sleep</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
+                    You can also ask me all sorts of questions about common causes of sleeping problems.
                     </Card.Text>
                 </Card.Body>
                 </Card>
                 </Col>
                 <Col>
                 <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="https://picsum.photos/id/201/320/200" />
+                <Card.Img variant="top" src="https://as1.ftcdn.net/v2/jpg/02/01/38/00/1000_F_201380017_cNP9520EXzGG3xPUsGkSZvqxcFQsB5Ae.jpg" />
                 <Card.Body>
-                    <Card.Title>Manage your repeat prescriptions</Card.Title>
+                    <Card.Title>Healthcare services</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
+                    Book appointments and manage repeat prescriptions from your local GP.
                     </Card.Text>
                 </Card.Body>
                 </Card>
                 </Col>
                 <Col>
                 <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="https://picsum.photos/id/220/320/200" />
-                <Card.Body>
-                    <Card.Title>Manage your GP appointments</Card.Title>
-                    <Card.Text>
-                    Speak directly to one of our staff members to solve your queries.
-                    </Card.Text>
-                </Card.Body>
-                </Card>
-                </Col>
-                <Col>
-                <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="https://picsum.photos/id/220/320/200" />
+                <Card.Img variant="top" src="https://img.freepik.com/free-vector/isometric-icon-with-online-medical-care-service-chatbot-talking-people-3d_1284-63041.jpg?w=740&t=st=1660437451~exp=1660438051~hmac=aa66d1aa2530557403aa9ccef63745c1b535c737b8bc9cddac37e09200b86e87" />
                 <Card.Body>
                     <Card.Title>Live technical support</Card.Title>
                     <Card.Text>
-                    In the event that I can not solve your problem, don't fret about it! Speak directly to one of our staff members to solve your queries.
+                    If I fail to understand you, you can always speak directly to one of our staff members.
                     </Card.Text>
                 </Card.Body>
                 </Card>

@@ -1,6 +1,5 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import "./Footer.js";
 
 function Footer() {
   return (

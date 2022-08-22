@@ -13,7 +13,7 @@ function Main() {
             <Row className="px-4 my-5">
                 <Col sm={6}>
                     <Image 
-                        src="https://thumbs.dreamstime.com/b/young-man-sleeping-wide-bed-european-under-white-blanket-morning-sunlight-93952216.jpg"
+                        src="https://media.istockphoto.com/photos/futuristic-glowing-blue-neon-dialog-symbol-on-black-dark-background-picture-id1297855320?k=20&m=1297855320&s=612x612&w=0&h=JKdQj6XoNvbBwhqMxv0hF8B7uDsqFioUkP-lYD6y9rs="
                         fluid
                         rounded
                         className='sleepbot'
@@ -38,7 +38,7 @@ function Main() {
                 <Card.Body>
                     <Card.Title>Ask questions about sleep</Card.Title>
                     <Card.Text>
-                    You can also ask me all sorts of questions about common causes of sleeping problems.
+                    You can ask me all sorts of questions about common causes of sleeping problems.
                     </Card.Text>
                 </Card.Body>
                 </Card>

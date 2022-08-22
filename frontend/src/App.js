@@ -1,16 +1,17 @@
-import './App.css';
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./Header.js";
 import Main from "./Main.js";
 import Footer from "./Footer.js";
+import Chat from "./components/Chat.js";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header />
-      <Main className = "main"/> 
-      <Footer className="footer"/>
+      <Main /> 
+      <Footer />
+      <Chat />
     </div>
   );
 }

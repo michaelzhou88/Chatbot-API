@@ -49,7 +49,7 @@ function Main() {
                 <Card.Body>
                     <Card.Title>Healthcare services</Card.Title>
                     <Card.Text>
-                    Book appointments and manage repeat prescriptions from your local GP.
+                    Dr Doze can also manage your repeat prescriptions from your local GP.
                     </Card.Text>
                 </Card.Body>
                 </Card>
